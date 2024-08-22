@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        color: rgb(38, 109, 216);
+      }
+      /* @media screen and (min-width: 100px) { */
+      body {
+        background-image: url(pngtree-golden-rakhi-design-for-raksha-bandhan-festival-picture-image_1983697.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 80vh;
+        font-size: 2rem;
+      }
+      h2 {
+        text-align: center;
+        margin-top: 5%;
+      }
+      div > #main {
+        border-radius: 50%;
+        /* margin-top: 0px; */
+        margin-left: 150px;
+        float: left;
+      }
+      span > img {
+        border-radius: 80%;
+        margin-top: 50px;
+        /*float: right; */
+        margin-left: 290px;
+      }
+      p{
+        margin-top: -2%;
+      }
+      /* } */
+      /* @media screen and (max-width: 600px) {
+        body {
+          background-image: url(1eaa2a9f5734ec26bfa62605da4296e1.jpg);
+          background-repeat: no-repeat;
+          background-color: blanchedalmond;
+
+        }
+      } */
+      @media screen and (max-width: 600px) {
+        body {
+          background-image: url(1eaa2a9f5734ec26bfa62605da4296e1.jpg);
+          background-repeat: no-repeat;
+          background-color: blanchedalmond;
+          height: 89vh; /* Changed to 100vh to fill the screen */
+          font-size: 1.5rem; /* Reduced font size for smaller screens */
+          display: flex;
+          /* height: 100vh; */
+        }
+        
+        #main {
+          display: none;
+        }
+
+        span > img {
+          display: none;
+        }
+
+        /* marquee{
+          animation-play-state: paused;
+        } */
+        h2 {
+          margin-top: 158%;
+          font-size: 20px;
+          /* text-align: center; */
+          /* margin-top: 10%; Reduced margin-top for smaller screens */
+          /* float: inline-end; */
+        }
+
+        p {
+          font-size: 1rem;/*  Reduced font size for smaller screens */
+          /* background-color: rgb(212, 234, 226); */
+          margin-top: -5%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div id="main">
+        <img src="main.jpg" alt="" height="500px" width="500px" />
+      </div>
+      <span
+        ><img
+          src="ce8ac0675c6ee3b991688a2f0b4f27db.jpg"
+          alt=""
+          height="270px"
+          width="270px"
+      /></span>
+      <marquee behavior="slide" direction="top" scrollamount="20"><h2>Happy रक्षाबंधन📿</h2></marquee>
+      <p>
+        <marquee behavior="slide" direction="left" scrollamount="12">
+          Wishing you a Raksha Bandhan filled with love,</marquee> <marquee behavior="slide" direction="left" scrollamount="7">protection,beautiful memories and endless joy!</marquee> 
+        
+      </p>
+    </div>
+  </body>
+</html>
