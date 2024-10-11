@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       body{
+            background-image: url(test.png);
+            background-repeat: no-repeat;
+            background-size: contain ;
+            height: 700px;
+            width:auto;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            justify-items: center;
+        }
+        @media screen and (max-width:600px  ){
+            body {
+            background-image: url(oko.jpg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            height: 700px;
+            width: fit-content;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            }
+            .text{
+                font-size: 5%;
+            }
+        }
+        .text{
+            margin-top: auto;
+            background-color: lightskyblue;
+            padding: 13px;
+            border-radius: 10px ;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: larger;
+        }
+    </style>
+</head>
+<body>
+    <div class="text">
+        Warm wishes to you for Ganesh Chaturthi! May Lord Ganesha bring prosperity,
+     wisdom, and happiness into your life. Have a joyful and blessed celebration!
+    </div>
+    <audio id="autoplay" loop controls>
+      <source src="jai-ganesh-jai-ganesh-deva-ganesh-aarti-ganpatibappamorya-ganesh-128-ytshorts.savetube.me.mp3" type="audio/mp3">
+   </audio>
+   <script>
+      window.onload = function() {
+        document.getElementById("autoplay").play();
+      }
+   </script>
+</body>
+</html>
